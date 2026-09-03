@@ -13,7 +13,7 @@ The process for adding features to this project is described in
 
 ## About the components
 
-Ths app uses [Jekyll](https://jekyllrb.com) to build the site, and [Sass](https://sass-lang.com/)
+This app uses [Jekyll](https://jekyllrb.com) to build the site, and [Sass](https://sass-lang.com/)
 for CSS.  Javascript provided is a [webpacked](https://webpack.js.org/)
 aggregation of [several different modules](#javascript-modules), leveraging
 [React](https://react.dev/) and [d3](https://d3js.org/) for the visualizations.
@@ -70,7 +70,7 @@ npm run lint:styles
 npm run lint:html
 ```
 
-You can add `:fix` to any above the above commands and the linter will attempt
+You can add `:fix` to any of the above commands and the linter will attempt
 to automatically fix common lint issues.
 
 ### Run the unit tests
@@ -216,27 +216,27 @@ deployment variables.
 
 ### Webpack Configuration
 
-The application compiles es6 modules into web friendly js via Wepback and the
+The application compiles es6 modules into web friendly js via Webpack and the
 [babel loader](https://webpack.js.org/loaders/babel-loader/).
 
-The webpack configuration is set in the [wepback.config.js](./webpack.config.js).
+The webpack configuration is set in the [webpack.config.js](./webpack.config.js).
 
-The current configuration uses babel `present-env`.
+The current configuration uses babel `preset-env`.
 
 The webpack also includes linting using [eslint](https://eslint.org/) leveraging
 [Prettier](https://prettier.io/), as well as community recommended style
-guidlines for eslint and react.
+guidelines for eslint and react.
 
-The webconfig uses the [TerserWebpackPlugin](https://webpack.js.org/plugins/terser-webpack-plugin/)
+The webconfig uses the [TerserWebpackPlugin](https://github.com/webpack-contrib/terser-webpack-plugin)
 to minimize the bundle.
 
-The resulting uglified bundle is built into `assest/bundle.js`.
+The resulting uglified bundle is built into `assets/bundle.js`.
 
 #### NPM webpack commands
 
 | Command | purpose |
 |-------------| ------ |
-| npm run build:local | a watch command rebuilding the webpack with a development configuration (i.e. no minifiecation) |
+| npm run build:local | a watch command rebuilding the webpack with a development configuration (i.e. no minification) |
 | npm run build:prod | a webpack command to build a minified and transpiled bundle.js |
 
 ### Usage by other organizations
@@ -246,7 +246,7 @@ Organizations who have reused this project for their analytics dashboard:
 |                                                                       |                                                                                        |
 |:---------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|
 | [The City of Anchorage, AK](https://analytics.muni.org/)              | [The City of Omaha, NE](https://analytics.cityofomaha.org/) |
-| [The City of Sacramento, CA](https://analytics.cityofsacramento.org/) | [Carbarrus County, NC](http://analytics.cabarruscounty.us/) |
+| [The City of Sacramento, CA](https://analytics.cityofsacramento.org/) | [Cabarrus County, NC](http://analytics.cabarruscounty.us/) |
 | [City of Seattle](https://www.seattle.gov/about-our-digital-properties/web-analytics) | [State of Georgia](https://analytics.georgia.gov/)    
 | [Douglas County, NE](http://analytics.douglascounty-ne.gov/)          | [State of Indiana](https://analytics.in.gov/)  
 | [USA.gov - GSA](https://www.usa.gov/website-analytics/) |
