@@ -23,7 +23,7 @@
 - Active areas: GA4 data front-end, accessibility (axe/pa11y), dependency bumps (npm/bundler), CI/deploy (GitHub Actions replacing CircleCI). Avoid inventing work in these; they are well-maintained.
 
 ## Gap ledger (dedupe — READ FIRST, never re-pick)
-- `2026-09-03` self-found — trivial-fix pass: doc typos in README.md + docs/maintenance.md (12 typos) + 1 verified dead link (TerserWebpackPlugin URL 404 -> webpack-contrib GitHub repo). outcome: pr-opened. Lesson: pure typo/README/docs doc cleanup for a small clean PR.
+- `2026-09-03` self-found — trivial-fix pass: doc typos in README.md + docs/maintenance.md (12 typos) + 1 verified dead link (TerserWebpackPlugin URL 404 -> webpack-contrib GitHub repo). outcome: pr-opened. PR: https://github.com/olitreadwell/analytics.usa.gov/pull/1 (fork PR base=develop, head=fix-doc-typos-and-dead-link). Lesson: pure typo/README/docs doc cleanup for a small clean PR.
 
 ## Mined gaps (discovered, not yet attempted)
 - `2026-09-03` docs/maintenance.md + docs/procedures.md still reference CircleCI + Gemnasium + handbook.18f.gov — stale service refs; removing/rewriting changes content so left untouched (not a clean trivial fix). status: proposed
