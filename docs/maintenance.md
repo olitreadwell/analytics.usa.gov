@@ -11,7 +11,7 @@
   * Cloud.gov (Access) - Gray Brooks, Jonathan Hooper, and Tim Lowden have access to manage this.
   * New Relic (APM and Synthetics) - Gray Brooks, Jonathan Hooper, and Eric Mill have access to manage this.
   * Circle CI - Gray Brooks, Jonathan Hooper, and Tim Lowden have access to manage this, as access is managed through github permissions.
-  * Google Analytics API - They are stored in the `analytics-reporter` environment and can be found by runnning `cf env analytics-reporter` when logged into cloud.gov on the command line and targeting the `gsa-opp-analytics` org and the `analytics-dev` space.  Gray Brooks, Jonathan Hooper, and Tim Lowden also have the keys stored.
+  * Google Analytics API - They are stored in the `analytics-reporter` environment and can be found by running `cf env analytics-reporter` when logged into cloud.gov on the command line and targeting the `gsa-opp-analytics` org and the `analytics-dev` space.  Gray Brooks, Jonathan Hooper, and Tim Lowden also have the keys stored.
   * AWS - Provided by a cloud.gov service.
   * Google Analytics (Digital Analytics Program)
 
@@ -33,7 +33,7 @@
 
 ## Regular Tasks
 
-* Check Gemnasium and Snyk to review if we need to update depedencies.
+* Check Gemnasium and Snyk to review if we need to update dependencies.
 * Update dependencies.
 * Process issues and pull requests in the three repos.
 * Look at logs for irregularities.
@@ -82,7 +82,7 @@ In the settings, the old `CF_USERNAME` and `CF_PASSWORD` values will need to be 
 Sometimes if the site is acting up, it helps to restart the app in cloud.gov.  Here's how to do that.
 
 * Log in via https://cloud.gov/.
-* Navigate to the `gsa-opp-anlaytics` org, then the `analytics` app in the `analytics-dev` space.
+* Navigate to the `gsa-opp-analytics` org, then the `analytics` app in the `analytics-dev` space.
 * Click on the Restart app button.
 
 ## Adding/Removing users in cloud.gov
